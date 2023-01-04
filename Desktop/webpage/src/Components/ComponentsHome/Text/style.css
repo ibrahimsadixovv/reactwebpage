@@ -1,0 +1,51 @@
+.textPage{
+    min-height: 140vh;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.textContainer{
+    min-height: 135vh;
+    width: 60%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 20px;
+}
+.textCards{
+    color: rgb(0, 0, 0);
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+}
+.textCards h1{
+    font-size: 55px;
+}
+.textCards h2{
+ font-weight: 100;
+ font-size: 40px;
+}
+.textCards p{
+   font-style: italic;
+   color: rgb(122, 114, 114);
+   cursor: text;
+}
+.textTop{
+    cursor: pointer;
+}
+.textTop:hover{
+    color: rgb(119, 96, 143) ;
+}
+.textCardDiv{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.textCardDiv p{
+    width: 100%;
+}
+

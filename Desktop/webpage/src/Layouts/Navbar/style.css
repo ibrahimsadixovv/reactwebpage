@@ -1,0 +1,101 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+nav{
+    width: 100%;
+    max-height: 8vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    z-index: 34;
+
+}
+.NavigationBar{
+    color: rgb(255, 255, 255);
+    width: 60%;
+    min-height: 8vh;
+    display: flex;
+    align-items: center;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    justify-content: space-between;
+}
+
+.Logo p{
+    font-size: 25px;
+    font-weight: bold;
+    cursor: pointer;
+   
+}
+
+ul{
+    list-style-type: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 20px;
+
+}
+.Navigation{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    
+}
+.Navigation ul{
+    list-style-type: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 15px;
+    font-weight: bolder;
+    gap: 40px;
+}
+nav i{
+    font-size: 20px;
+}
+.Navigation ul li a{
+    color: white;
+}
+
+.icon{
+    display: none;
+}
+.link{
+    text-decoration: none;
+    cursor: pointer;
+    transition: .2s; 
+    color: white;
+    display: flex;
+}
+
+    .link:hover{
+        color: rgb(211, 202, 202);
+    }
+@media only screen and (max-width: 1000px) {
+    .icon {
+      display: block;
+      cursor: pointer;
+    }
+
+    .Navigation {
+        display: none;
+      }
+      .search p{
+        display: none;
+      }
+      .search .fa-user{
+        display: none;
+      }
+      nav{
+        background-color: white;
+      }
+      .NavigationBar{
+        width: 80%;
+        color: black;
+
+    }
+  }

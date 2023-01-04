@@ -1,0 +1,65 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.mainPage{
+    height: 70vh;
+    width: 100%;
+    background-image: url(https://c1.wallpaperflare.com/preview/692/919/774/background-balance-business-commerce.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    position: relative;
+}
+
+.mainPageText{
+    height: 70vh;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
+    position: absolute;
+}
+.mainPageText h2{
+    color: white;
+    font-size: 80px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-weight: bolder;
+}
+.mainPageText p{
+    color: white;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 20px;
+}
+.try{
+    height: 30vh;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: end;
+    position: fixed;
+}
+figure{
+    height: 50px;
+    width: 190px;
+    background-color: rgb(255, 255, 255);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: rgb(37, 37, 109);
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-weight: bolder;
+    font-size: 15px;
+    border: 1px solid  rgb(37, 37, 109);
+    border-right: none;
+    transition: .3s;
+    cursor: pointer;
+}
+figure:hover{
+    color: white;
+    background-color: rgb(37, 37, 109) ;
+}
